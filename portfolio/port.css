@@ -1,0 +1,88 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #121212;
+    color: white;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1e1e1e;
+    padding: 15px;
+}
+
+.logo {
+    font-size: 1.5rem;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    color: white;
+}
+
+.home {
+    text-align: center;
+    padding: 50px;
+}
+
+.home img {
+    width: 150px;
+    border-radius: 10px;
+}
+
+.about {
+    padding: 40px;
+    text-align: center;
+    background-color: #1e1e1e;
+}
+
+.about img {
+    width: 120px;
+    border-radius: 50%;
+}
+
+.skills {
+    padding: 40px;
+}
+
+.skill {
+    margin-bottom: 15px;
+}
+
+.progress {
+    background: #333;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.progress-bar {
+    background: #ffcc00;
+    height: 10px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    padding: 20px;
+    background: #1e1e1e;
+}
+
+footer button {
+    padding: 10px 15px;
+    border: none;
+    background: red;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
